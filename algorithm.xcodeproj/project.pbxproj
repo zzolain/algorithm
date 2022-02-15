@@ -7,32 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FFBECCF727B881A500D0E355 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCF627B881A500D0E355 /* Tests_iOS.swift */; };
-		FFBECCF927B881A500D0E355 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCF827B881A500D0E355 /* Tests_iOSLaunchTests.swift */; };
-		FFBECD0327B881A500D0E355 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECD0227B881A500D0E355 /* Tests_macOS.swift */; };
-		FFBECD0527B881A500D0E355 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECD0427B881A500D0E355 /* Tests_macOSLaunchTests.swift */; };
 		FFBECD0627B881A500D0E355 /* algorithmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCDE27B881A300D0E355 /* algorithmApp.swift */; };
-		FFBECD0727B881A500D0E355 /* algorithmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCDE27B881A300D0E355 /* algorithmApp.swift */; };
 		FFBECD0827B881A500D0E355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCDF27B881A300D0E355 /* ContentView.swift */; };
-		FFBECD0927B881A500D0E355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECCDF27B881A300D0E355 /* ContentView.swift */; };
 		FFBECD0A27B881A500D0E355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBECCE027B881A500D0E355 /* Assets.xcassets */; };
-		FFBECD0B27B881A500D0E355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBECCE027B881A500D0E355 /* Assets.xcassets */; };
+		FFBECD1D27B89BDF00D0E355 /* QueueStack_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECD1C27B89BDF00D0E355 /* QueueStack_02.swift */; };
+		FFBECD2527B89E5900D0E355 /* testAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECD2427B89E5900D0E355 /* testAlgorithm.swift */; };
+		FFBECD2C27B8A2AB00D0E355 /* QueueStack_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBECD2B27B8A2AB00D0E355 /* QueueStack_03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FFBECCF327B881A500D0E355 /* PBXContainerItemProxy */ = {
+		FFBECD2627B89E5900D0E355 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFBECCD927B881A300D0E355 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FFBECCE427B881A500D0E355;
 			remoteInfo = "algorithm (iOS)";
-		};
-		FFBECCFF27B881A500D0E355 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FFBECCD927B881A300D0E355 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FFBECCEA27B881A500D0E355;
-			remoteInfo = "algorithm (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,14 +30,10 @@
 		FFBECCDF27B881A300D0E355 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFBECCE027B881A500D0E355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFBECCE527B881A500D0E355 /* algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFBECCEB27B881A500D0E355 /* algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFBECCED27B881A500D0E355 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		FFBECCF227B881A500D0E355 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFBECCF627B881A500D0E355 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		FFBECCF827B881A500D0E355 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		FFBECCFE27B881A500D0E355 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFBECD0227B881A500D0E355 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		FFBECD0427B881A500D0E355 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		FFBECD1C27B89BDF00D0E355 /* QueueStack_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStack_02.swift; sourceTree = "<group>"; };
+		FFBECD2227B89E5900D0E355 /* algorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBECD2427B89E5900D0E355 /* testAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAlgorithm.swift; sourceTree = "<group>"; };
+		FFBECD2B27B8A2AB00D0E355 /* QueueStack_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueStack_03.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,21 +44,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFBECCE827B881A500D0E355 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCEF27B881A500D0E355 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCFB27B881A500D0E355 /* Frameworks */ = {
+		FFBECD1F27B89E5900D0E355 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,10 +57,9 @@
 		FFBECCD827B881A300D0E355 = {
 			isa = PBXGroup;
 			children = (
+				FFBECD1A27B89B8F00D0E355 /* Solution */,
+				FFBECD2327B89E5900D0E355 /* Tests */,
 				FFBECCDD27B881A300D0E355 /* Shared */,
-				FFBECCEC27B881A500D0E355 /* macOS */,
-				FFBECCF527B881A500D0E355 /* Tests iOS */,
-				FFBECD0127B881A500D0E355 /* Tests macOS */,
 				FFBECCE627B881A500D0E355 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,37 +78,42 @@
 			isa = PBXGroup;
 			children = (
 				FFBECCE527B881A500D0E355 /* algorithm.app */,
-				FFBECCEB27B881A500D0E355 /* algorithm.app */,
-				FFBECCF227B881A500D0E355 /* Tests iOS.xctest */,
-				FFBECCFE27B881A500D0E355 /* Tests macOS.xctest */,
+				FFBECD2227B89E5900D0E355 /* algorithmTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FFBECCEC27B881A500D0E355 /* macOS */ = {
+		FFBECD1A27B89B8F00D0E355 /* Solution */ = {
 			isa = PBXGroup;
 			children = (
-				FFBECCED27B881A500D0E355 /* macOS.entitlements */,
+				FFBECD1B27B89BAD00D0E355 /* Queue+Stack */,
 			);
-			path = macOS;
+			path = Solution;
 			sourceTree = "<group>";
 		};
-		FFBECCF527B881A500D0E355 /* Tests iOS */ = {
+		FFBECD1B27B89BAD00D0E355 /* Queue+Stack */ = {
 			isa = PBXGroup;
 			children = (
-				FFBECCF627B881A500D0E355 /* Tests_iOS.swift */,
-				FFBECCF827B881A500D0E355 /* Tests_iOSLaunchTests.swift */,
+				FFBECD1C27B89BDF00D0E355 /* QueueStack_02.swift */,
+				FFBECD2B27B8A2AB00D0E355 /* QueueStack_03.swift */,
 			);
-			path = "Tests iOS";
+			path = "Queue+Stack";
 			sourceTree = "<group>";
 		};
-		FFBECD0127B881A500D0E355 /* Tests macOS */ = {
+		FFBECD2327B89E5900D0E355 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FFBECD0227B881A500D0E355 /* Tests_macOS.swift */,
-				FFBECD0427B881A500D0E355 /* Tests_macOSLaunchTests.swift */,
+				FFBECD2D27B8A33000D0E355 /* Queue+Stack */,
 			);
-			path = "Tests macOS";
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FFBECD2D27B8A33000D0E355 /* Queue+Stack */ = {
+			isa = PBXGroup;
+			children = (
+				FFBECD2427B89E5900D0E355 /* testAlgorithm.swift */,
+			);
+			path = "Queue+Stack";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,58 +136,23 @@
 			productReference = FFBECCE527B881A500D0E355 /* algorithm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FFBECCEA27B881A500D0E355 /* algorithm (macOS) */ = {
+		FFBECD2127B89E5900D0E355 /* algorithmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFBECD1127B881A500D0E355 /* Build configuration list for PBXNativeTarget "algorithm (macOS)" */;
+			buildConfigurationList = FFBECD2827B89E5900D0E355 /* Build configuration list for PBXNativeTarget "algorithmTests" */;
 			buildPhases = (
-				FFBECCE727B881A500D0E355 /* Sources */,
-				FFBECCE827B881A500D0E355 /* Frameworks */,
-				FFBECCE927B881A500D0E355 /* Resources */,
+				FFBECD1E27B89E5900D0E355 /* Sources */,
+				FFBECD1F27B89E5900D0E355 /* Frameworks */,
+				FFBECD2027B89E5900D0E355 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FFBECD2727B89E5900D0E355 /* PBXTargetDependency */,
 			);
-			name = "algorithm (macOS)";
-			productName = "algorithm (macOS)";
-			productReference = FFBECCEB27B881A500D0E355 /* algorithm.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FFBECCF127B881A500D0E355 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFBECD1427B881A500D0E355 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				FFBECCEE27B881A500D0E355 /* Sources */,
-				FFBECCEF27B881A500D0E355 /* Frameworks */,
-				FFBECCF027B881A500D0E355 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFBECCF427B881A500D0E355 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = FFBECCF227B881A500D0E355 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		FFBECCFD27B881A500D0E355 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFBECD1727B881A500D0E355 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				FFBECCFA27B881A500D0E355 /* Sources */,
-				FFBECCFB27B881A500D0E355 /* Frameworks */,
-				FFBECCFC27B881A500D0E355 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FFBECD0027B881A500D0E355 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = FFBECCFE27B881A500D0E355 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = algorithmTests;
+			productName = algorithmTests;
+			productReference = FFBECD2227B89E5900D0E355 /* algorithmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,16 +167,9 @@
 					FFBECCE427B881A500D0E355 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					FFBECCEA27B881A500D0E355 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					FFBECCF127B881A500D0E355 = {
+					FFBECD2127B89E5900D0E355 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = FFBECCE427B881A500D0E355;
-					};
-					FFBECCFD27B881A500D0E355 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = FFBECCEA27B881A500D0E355;
 					};
 				};
 			};
@@ -254,9 +187,7 @@
 			projectRoot = "";
 			targets = (
 				FFBECCE427B881A500D0E355 /* algorithm (iOS) */,
-				FFBECCEA27B881A500D0E355 /* algorithm (macOS) */,
-				FFBECCF127B881A500D0E355 /* Tests iOS */,
-				FFBECCFD27B881A500D0E355 /* Tests macOS */,
+				FFBECD2127B89E5900D0E355 /* algorithmTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,22 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFBECCE927B881A500D0E355 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFBECD0B27B881A500D0E355 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCF027B881A500D0E355 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCFC27B881A500D0E355 /* Resources */ = {
+		FFBECD2027B89E5900D0E355 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,48 +217,26 @@
 			files = (
 				FFBECD0827B881A500D0E355 /* ContentView.swift in Sources */,
 				FFBECD0627B881A500D0E355 /* algorithmApp.swift in Sources */,
+				FFBECD1D27B89BDF00D0E355 /* QueueStack_02.swift in Sources */,
+				FFBECD2C27B8A2AB00D0E355 /* QueueStack_03.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFBECCE727B881A500D0E355 /* Sources */ = {
+		FFBECD1E27B89E5900D0E355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBECD0927B881A500D0E355 /* ContentView.swift in Sources */,
-				FFBECD0727B881A500D0E355 /* algorithmApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCEE27B881A500D0E355 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFBECCF927B881A500D0E355 /* Tests_iOSLaunchTests.swift in Sources */,
-				FFBECCF727B881A500D0E355 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFBECCFA27B881A500D0E355 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFBECD0527B881A500D0E355 /* Tests_macOSLaunchTests.swift in Sources */,
-				FFBECD0327B881A500D0E355 /* Tests_macOS.swift in Sources */,
+				FFBECD2527B89E5900D0E355 /* testAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FFBECCF427B881A500D0E355 /* PBXTargetDependency */ = {
+		FFBECD2727B89E5900D0E355 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FFBECCE427B881A500D0E355 /* algorithm (iOS) */;
-			targetProxy = FFBECCF327B881A500D0E355 /* PBXContainerItemProxy */;
-		};
-		FFBECD0027B881A500D0E355 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FFBECCEA27B881A500D0E355 /* algorithm (macOS) */;
-			targetProxy = FFBECCFF27B881A500D0E355 /* PBXContainerItemProxy */;
+			targetProxy = FFBECD2627B89E5900D0E355 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,7 +378,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -514,143 +408,49 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FFBECD1227B881A500D0E355 /* Debug */ = {
+		FFBECD2927B89E5900D0E355 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X28K496YM8;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kim.jinsol.algorithm;
-				PRODUCT_NAME = algorithm;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		FFBECD1327B881A500D0E355 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X28K496YM8;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kim.jinsol.algorithm;
-				PRODUCT_NAME = algorithm;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		FFBECD1527B881A500D0E355 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X28K496YM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kim.jinsol.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = kim.jinsol.algorithmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "algorithm (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/algorithm.app/algorithm";
 			};
 			name = Debug;
 		};
-		FFBECD1627B881A500D0E355 /* Release */ = {
+		FFBECD2A27B89E5900D0E355 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X28K496YM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kim.jinsol.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = kim.jinsol.algorithmTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "algorithm (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/algorithm.app/algorithm";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FFBECD1827B881A500D0E355 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X28K496YM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kim.jinsol.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "algorithm (macOS)";
-			};
-			name = Debug;
-		};
-		FFBECD1927B881A500D0E355 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X28K496YM8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kim.jinsol.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "algorithm (macOS)";
 			};
 			name = Release;
 		};
@@ -675,29 +475,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFBECD1127B881A500D0E355 /* Build configuration list for PBXNativeTarget "algorithm (macOS)" */ = {
+		FFBECD2827B89E5900D0E355 /* Build configuration list for PBXNativeTarget "algorithmTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFBECD1227B881A500D0E355 /* Debug */,
-				FFBECD1327B881A500D0E355 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFBECD1427B881A500D0E355 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFBECD1527B881A500D0E355 /* Debug */,
-				FFBECD1627B881A500D0E355 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FFBECD1727B881A500D0E355 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFBECD1827B881A500D0E355 /* Debug */,
-				FFBECD1927B881A500D0E355 /* Release */,
+				FFBECD2927B89E5900D0E355 /* Debug */,
+				FFBECD2A27B89E5900D0E355 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
